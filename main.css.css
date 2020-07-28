@@ -1,0 +1,255 @@
+import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300&display=swap');
+
+body {
+    background-color: #6ad1fc;
+    position: fixed;
+}
+.loader-page{
+    
+}
+.text{
+    font-family: "Sulphur Point";
+    font-weight: bolder;
+    font-size: 52px;
+    letter-spacing: 3px;
+    color: #10093b;
+    position: relative;
+    top: 30px;
+    left: 5%;
+}
+.bushes{
+    background-color: #a1f768;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    position: relative;
+    top: 140px;
+    left: -10%;
+}
+.stem{
+    border-bottom: 200px solid #4cad07;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    width: 5px;
+    position: absolute;
+    top:  240px;
+    left: 47px;
+    z-index: 1;
+}
+.branch1{
+    position: absolute;
+    top: 68%;
+    left: 7%;
+}
+.branch2{
+    position: relative;
+    top: 27px;
+    left: 17%;
+}
+.branch3{
+    position: absolute;
+    top: 80%;
+    left: 1%;
+}
+.branch4{
+    position: absolute;
+    top: 80%;
+    left: 17%;
+}
+.base{
+    background-color: #b3ffd4;
+    width: 450px;
+    height: 350px;
+    border-radius: 50%;
+    position: absolute;
+    top: 100%;
+    left: -20%;
+    z-index: -1;
+}
+.head {
+    width: 80px;
+    height: 50px; /* as the half of the width */
+    background-color: #2db500;
+    border-bottom-left-radius: 60px;  /* 100px of height + 10px of border */
+    border-bottom-right-radius: 60px; /* 100px of height + 10px of border */
+    border: 10px solid #2db500;
+    border-top: 0;
+    position: absolute;
+    top: 80%;
+    left: 60%;
+}
+.eye1{
+   width: 8px; 
+   height: 8px;
+   background-color: #000;
+   border-radius: 50%;
+   border: 13px solid #fff;
+   position: absolute;
+   top: 75%;
+   left: 55%;
+}
+.eye2{
+   width: 8px; 
+   height: 8px;
+   background-color: #000;
+   border-radius: 50%;
+   border: 13px solid #fff;
+   position: absolute;
+   top: 75%;
+   left: 83%;
+}
+.lips{
+    width: 40px;
+    height: 20px; 
+    border-bottom-left-radius: 30px;  
+    border-bottom-right-radius: 30px;
+    border: 2px solid #000;
+    border-top: 0;
+    position: absolute;
+    top: 83%;
+    left: 68%;  
+}
+.antenna1{
+    width: 2px;
+    height: 66px;
+    background-color: #000;
+    position: absolute;
+    top: 63%;
+    left: 70%;
+}
+.a1{
+   width: 15px;
+    height: 10px; 
+    border-top-left-radius: 15px;  
+    border-top-right-radius: 15px;
+    border: 2px solid #000;
+    border-bottom: 0;
+    position: absolute;
+    top: -10%;
+    left: -850%;
+}
+.antenna2{
+    width: 2px;
+    height: 66px;
+    background-color: #000;
+    position: absolute;
+    top: 63%;
+    left: 75%;
+}
+.a2{
+   width: 15px;
+    height: 10px; 
+    border-top-left-radius: 15px;  
+    border-top-right-radius: 15px;
+    border: 2px solid #000;
+    border-bottom: 0;
+    position: absolute;
+    top: -10%;
+    left: 0%;
+}
+.body{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #89ff69;
+    position: absolute;
+    top: 85%;
+    left: 60%;
+    z-index: -1;
+}
+.b1{
+    width: 50px;
+    height: 100px;
+    transform: skewY(20deg);
+    background: #f3f5f2;
+    position: absolute;
+    top: 96%;
+    left: 52%;
+    z-index: 1;
+}
+.b2{
+    width: 50px;
+    height: 100px;
+    transform: skewY(-20deg);
+    background: #cfcdca;
+    position: absolute;
+    top: 96%;
+    left: 67%;
+    z-index: 1;
+}
+.b3{
+    width: 50px;
+    height: 100px;
+    transform: skewY(20deg);
+    background: #f3f5f2;
+    position: absolute;
+    top: 96%;
+    left: 82%;
+    z-index: 1;
+}
+.h1{
+    width: 60px;
+    height: 20px;
+    border-radius: 18px;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-left: 2px solid #f3f5f2;
+    position: absolute;
+    top: 97%;
+    left: 88%;
+}
+.h2{
+    width: 60px;
+    height: 20px;
+    border-radius: 18px;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-left: 2px solid #f3f5f2;
+    position: absolute;
+    top: 105%;
+    left: 88%;
+}
+.h3{
+    width: 60px;
+    height: 20px;
+    border-radius: 18px;
+    background-color: transparent;
+    border: 2px solid #000;
+    position: absolute;
+    top: 105%;
+    left: 42%;
+}
+.h4{
+    width:100px; 
+    height:100px; 
+    border-bottom:3px solid #000; 
+    background: transparent;
+    border-radius: 0 0 0 90px;
+    position: absolute;
+    top: 73%;
+    left: 30%;
+}
+.l1{
+ transform: rotateY(80deg);
+ position: absolute;
+ top: 120%;
+ left: 30%;
+}
+.l2{
+ transform: rotateY(80deg);
+ position: absolute;
+ top: 130%;
+ left: 30%;
+}
+.lg1{
+ transform: rotateY(80deg);
+ position: absolute;
+ top: 120%;
+ left: 40%;  
+}
+.lg2{
+ transform: rotateY(80deg);
+ position: absolute;
+ top: 130%;
+ left: 40%;
+}
